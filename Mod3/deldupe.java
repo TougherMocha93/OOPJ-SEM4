@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class deldupe {
+
     public static void main(String[] args) {
         int[] array = new int[5];
         Scanner in = new Scanner(System.in);

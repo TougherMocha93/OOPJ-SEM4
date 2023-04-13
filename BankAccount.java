@@ -1,6 +1,6 @@
 package JavaCourseAKS;
 
-class Acc{
+class Account{
     double bal = 0.0;
     int ACno;
 
@@ -13,6 +13,10 @@ class Acc{
     }
 }
 public class BankAccount {
+
+    int a;
+
+    Account acc = new Account();
     public static void main(String[] args) {
     }
 }

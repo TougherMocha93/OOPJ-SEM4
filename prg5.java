@@ -10,7 +10,7 @@ public class prg5 {
         System.out.println("Enter second floating number");
         double b = in.nextDouble();
 
-        if(Math.abs(a-b)<=0.001)
+        if( Math.round(a*1000) == Math.round(b*1000))
             System.out.println("The numbers are same up to three decimals");
         else
             System.out.println("The numbers are different");

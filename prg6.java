@@ -7,10 +7,13 @@ public class prg6 {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter year");
         int year = in.nextInt();
+
         //boolean a = (year % 100 == 0) ? (year % 400 == 0) : (year % 4 == 0);
+
         if( (year % 100 == 0) ? (year % 400 == 0) : (year % 4 == 0) )
             System.out.println("Leap Year");
         else
             System.out.println("Not a Leap Year");
+
     }
 }
