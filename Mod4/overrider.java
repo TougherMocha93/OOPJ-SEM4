@@ -1,4 +1,4 @@
-package JavaCourseAKS.Mod3;
+package JavaCourseAKS.Mod4;
 
 public class overrider {
     public static void main(String[] args){
@@ -29,7 +29,7 @@ class Parent{
 class Child extends Parent{
 
     Child(){
-        super();
+        super(); //Already Exists without declaration as the constructor of the Parent is by default executed first before it comes to the constructor of the child class
         System.out.println("_______child initiated________");
     }
 
@@ -38,7 +38,7 @@ class Child extends Parent{
     }
 
     Child(int a,int b){
-        super(b);
+        super(b); //Here, we are overriding the default super() in order to execute the modified-parametric constructor that we defined in the Parent class
         System.out.println("_______para-child initiated at "+a+" ________");
     }
 

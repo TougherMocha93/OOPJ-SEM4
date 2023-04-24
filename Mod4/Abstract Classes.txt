@@ -1,0 +1,4 @@
+A note about Abstract class
+
+When a main method is extended to an Abstract class, then all the methods which are defined as abstract MUST BE IMPLEMENTED
+(or must be used, without partial implementation or usage) in the main class.
